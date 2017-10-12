@@ -2,7 +2,13 @@
 
 ## As a suggestion, the README.md file for each repository can include the following information:
 ### a list of files contained in the repository with a brief description of each file
-
+1. test_images_output (A directory containing generated lanes-proposed images)
+2. test_videos_output (A directory containing generated lanes-proposed videos)
+3. P1.html (Generated HTML format for review)
+4. P1.ipynb (Source code)
+5. README.md (Readme file)
+6. writeup.md (Writeup file)
+ 
 ### any instructions someone might need for running your code
 1. Create subdirectory "test_images_output"
 2. Create subdirectory "test_videos_output"
