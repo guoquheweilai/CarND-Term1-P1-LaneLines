@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./test_images_output/output_solidWhiteCurve.jpg "solidWhiteCurve"
 
 ---
 
@@ -23,11 +23,19 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+My pipeline consisted of 6 steps.
+1. Converted the images to grayscale.
+2. Applied the gaussian noise kernel.
+3. Applied Canny transform
+4. Applied an image mask
+5. Applied hough lines transform
+6. Draw transparent lines on the image
+(Optional)7. Save image to the subdirectory "test_images_output" with prefix "output_"
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
+
 
 ![alt text][image1]
 
