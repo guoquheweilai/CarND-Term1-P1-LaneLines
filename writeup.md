@@ -1,8 +1,7 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
+## This writeup file is created from Writeup Template provided by Udacity.
+## All rights reserved by Udacity
 
 ---
 
@@ -43,13 +42,16 @@ You can find more under the subdirectory "test_images_output"
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+One potential shortcoming would be what would happen when there is no lines was detected in the image, my code will ignore that and draw no line.
 
-Another shortcoming could be ...
+Another shortcoming could be when the vehicle is entering a curve, my draw_line() will be mess up.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+A possible improvement would be to perserve the last drawn line in the image when there is no line was drawn.
+After a specific timeout (means no new line was drawn), it should raiseup a warning flag.
 
-Another potential improvement could be to ...
+Another potential improvement could be to sorting the lines by region, using those lines in the near botton region which will be close to the vehicle. Then we can average the lines position then calculate the slope and offset. Finally we can get the correct lanes.
+
+End-of-File
