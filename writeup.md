@@ -30,12 +30,12 @@ My pipeline consisted of 6 steps.
 4. Applied an image mask
 5. Applied hough lines transform
 6. Draw transparent lines on the image
-(Optional)7. Save image to the subdirectory "test_images_output" with prefix "output_"
+7. (Optional) Save image to the subdirectory "test_images_output" with prefix "output_"
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
+In order to draw a single line on the left and right lanes, I modified the draw_lines() function by seperating the lines by slope, removing horizontal and vertical lines and averaging the lines then getiing the slope and offset. Finally, I extrapolated the lines to the botton of the image and the top of the lane.
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
+Below it is one of my output images.
+You can find more under the subdirectory "test_images_output"
 
 ![alt text][image1]
 
