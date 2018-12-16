@@ -54,4 +54,13 @@ After a specific timeout (means no new line was drawn), it should raiseup a warn
 
 Another potential improvement could be to sorting the lines by region, using those lines in the near botton region which will be close to the vehicle. Then we can average the lines position then calculate the slope and offset. Finally we can get the correct lanes.
 
+## Videos
+Video recordings for success cases.  
+Success to run without incident - part 1.  
+![Success_Run_Part1](./videos/Success_Run_Part1.gif)  
+Success to run without incident - part 2.  
+![Success_Run_Part2](./videos/Success_Run_Part2.gif)  
+Success to run a full track.  
+![Success to run a full track](./videos/Success_to_run_a_full_track.gif)  
+
 End-of-File
