@@ -56,11 +56,9 @@ Another potential improvement could be to sorting the lines by region, using tho
 
 ## Videos
 Video recordings for success cases.  
-Success to run without incident - part 1.  
-![Success_Run_Part1](./videos/Success_Run_Part1.gif)  
-Success to run without incident - part 2.  
-![Success_Run_Part2](./videos/Success_Run_Part2.gif)  
-Success to run a full track.  
-![Success to run a full track](./videos/Success_to_run_a_full_track.gif)  
+Success to plot lane lines on solid white right video.  
+![Success_Run_Part1](./test_videos_output/solidWhiteRight.gif)  
+Success to plot lane lines on solid yellow left video.  
+![Success_Run_Part2](./test_videos_output/solidYellowLeft.gif)  
 
 End-of-File
